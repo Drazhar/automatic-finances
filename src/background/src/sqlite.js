@@ -57,7 +57,7 @@ export async function deleteAccount(id) {
 export async function getAccounts() {
   return new Promise((resolve, reject) => {
     db.all(
-      `SELECT rowid, name, currency, type
+      `SELECT rowid as id, name, currency, type
        FROM accounts`,
       function (err, rows) {
         if (err) {

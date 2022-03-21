@@ -27,7 +27,6 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: green;
 }
 
 #main-layout {
@@ -36,7 +35,6 @@ body {
 }
 
 #main {
-  background-color: red;
   flex-grow: 1;
   padding: 5px;
 }
